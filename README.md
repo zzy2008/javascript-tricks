@@ -1,7 +1,6 @@
 # javascript-tricks
 
 > Some tips and tricks for javascript.
----
 
 
 1. Array
