@@ -55,21 +55,21 @@
         ```
 
 3. Operator
-    1. `??`
-    ```js
-    let valA =  null ?? 'DefaultA'; // 'DefaultA'
-    let valB = undefined ?? 'DefaultB'; // 'DefaultB'
-    let valC = false ?? 'DefaultC'; // false
-    // 当左侧的操作数为 null 或者 undefined 时，返回其右侧操作数，否则返回左侧操作数。
-    ```
+    1. `??`操作符
+        ```js
+        let valA =  null ?? 'DefaultA'; // 'DefaultA'
+        let valB = undefined ?? 'DefaultB'; // 'DefaultB'
+        let valC = false ?? 'DefaultC'; // false
+        // 当左侧的操作数为 null 或者 undefined 时，返回其右侧操作数，否则返回左侧操作数。
+        ```
 
 4. Statement
     1. 判断
-    ```js
-    if (result) console.log("something");
-    if (!result) console.log("something");
-    result && console.log("something"); // better
-    result || console.log("something"); // better
-    ```
+        ```js
+        if (result) console.log("something");
+        if (!result) console.log("something");
+        result && console.log("something"); // better
+        result || console.log("something"); // better
+        ```
 
        
